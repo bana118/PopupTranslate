@@ -14,14 +14,14 @@
     },
     "content_scripts": [{
         "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "css": ["header.css"]
+        "js": ["js/content.js"],
+        "css": ["css/footer.css"]
       }],
     "background": {
       "persistent": false,
       "scripts": [
-        "background.js",
-        "glottologist.min.js"
+        "js/background.js",
+        "js/glottologist.min.js"
       ]
     }
   }

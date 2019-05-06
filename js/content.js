@@ -1,6 +1,6 @@
 /* Listen for messages */
-var element = document.createElement("header");
-element.id = "TranslateModalExtensionHeader";
+var element = document.createElement("footer");
+element.id = "TranslateModalExtensionFooter";
 var objBody = document.getElementsByTagName("body").item(0);
 objBody.appendChild(element);
 objBody.addEventListener("click",function (){

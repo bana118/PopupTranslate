@@ -1,6 +1,5 @@
-#TranslateModalExtensionHeader {
-    left:0;
-    top:0;
+#TranslateModalExtensionFooter {
+    bottom: 0;
     position: fixed;
     display: none;
     font-size: 30px;
