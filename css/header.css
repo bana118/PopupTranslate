@@ -1,5 +1,6 @@
 #TranslateModalExtensionFooter {
-    bottom: 0;
+    top: 0;
+    left:0;
     position: fixed;
     display: none;
     font-size: 30px;

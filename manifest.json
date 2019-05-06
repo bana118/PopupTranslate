@@ -15,7 +15,7 @@
     "content_scripts": [{
         "matches": ["<all_urls>"],
         "js": ["js/content.js"],
-        "css": ["css/footer.css"]
+        "css": ["css/header.css"]
       }],
     "background": {
       "persistent": false,
