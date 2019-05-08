@@ -23,11 +23,3 @@ chrome.contextMenus.onClicked.addListener(function (info,tab){
     }
 });
 
-chrome.runtime.onMessage.addListener(
-    function (request, sender, sendResponse) {
-        var event = request.event;
-        if(event == "selectionchange"){
-
-        }
-    }
-);
