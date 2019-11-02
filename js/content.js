@@ -1,4 +1,3 @@
-console.log("test");
 var fontColor;
 chrome.storage.local.get(null, function (items) {
 	fontColor = items.selected_fontColor;
